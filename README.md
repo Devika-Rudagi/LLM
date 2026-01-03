@@ -85,8 +85,14 @@ Optimization: AdamW optimizer with Cross-Entropy Loss.
 | **Token Efficiency** | High (1 token = "SELECT") | Med (Might split "SELECT" if rare) |
 | **Setup** | Must train tokenizer | Ready to use |
 
-Input:
+### Input:
+
 "List all users where name is Alice."
+
 SQL:
 SELECT * FROM users WHERE name = 'Alice';
 
+### Contributing
+Contributions are welcome! If you want to add more complex SQL templates (JOINs, GROUP BY) or improve the model architecture, feel free to fork and submit a PR.
+
+Author: Devika Rudagi
